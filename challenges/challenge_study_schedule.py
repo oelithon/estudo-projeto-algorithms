@@ -1,2 +1,6 @@
 def study_schedule(permanence_period, target_time):
-    """ Faça o código aqui. """
+    n = len(permanence_period)
+    if target_time == None:
+        return None
+
+    return -1
