@@ -1,6 +1,6 @@
 def is_anagram(first_string, second_string):
-    string_one = list(first_string)
-    string_two = list(second_string)
+    string_one = list(first_string.lower())
+    string_two = list(second_string.lower())
 
     if first_string == '' or second_string == '':
         return False
